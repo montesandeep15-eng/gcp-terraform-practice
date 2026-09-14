@@ -2,6 +2,7 @@ resource "google_compute_instance" "vm" {
   name         = "test-vm"
   machine_type = "e2-micro"
   zone         = "us-central1-a"
+  #it is the first vm-instnce created
   
   allow_stopping_for_update = true
 
